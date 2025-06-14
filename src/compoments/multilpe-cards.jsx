@@ -4,9 +4,10 @@ import heart from '../assets/heart.svg';
 import mala from '../assets/mala.svg';
 import school from '../assets/school.svg';
 import ecology from '../assets/ecology.svg';
+
 export default function MultilpeCards() {
     return (
-        <div className="grid grid-cols-3 gap-4 py-10">
+        <div className="grid grid-cols-3 gap-4 py-16">
             <div
                 key='1'
                 className="bg-blue-600 text-white flex items-center justify-center rounded-xl h-20 w-20 p-4 mx-auto"
